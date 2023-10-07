@@ -1,5 +1,5 @@
 function factorial(n) {
-  var result = 1;
+  let result = 1;
   for (i = n; i > 1; i--) {
     result *= i;
   }
